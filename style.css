@@ -18,7 +18,8 @@ section{
     justify-content: center;
 }
 h1{
-    font-size: 2.5rem;    
+    font-size: 2.5rem;  
+    font-family: "Rubik Dirt", cursive;
 }
 
 /* Seccion hero principal */
@@ -42,10 +43,21 @@ h1{
     color: #615151;
     
 }
+.hero-inferior-imagen{
+    width: 600px;    
+}
+
+
 
 /* Adaptable (responsivo) */
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;        
     }
 }
