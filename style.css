@@ -22,6 +22,26 @@ h1{
     font-family: "Rubik Dirt", cursive;
 }
 
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;    
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
 /* Seccion hero principal */
 
 .hero{
@@ -47,7 +67,25 @@ h1{
     width: 600px;    
 }
 
+/* Seccion Sobre mi */
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
 
+/* Experiencia */
+.experencia{
+    padding: 40px;
+}
+.experiencia .row div {
+    height: 250px;
+    background-color: purple;
+    border: 3px solid orange;
+}
 
 /* Adaptable (responsivo) */
 @media screen and (max-width: 767px){
