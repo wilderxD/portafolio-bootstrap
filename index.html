@@ -12,7 +12,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- BOOTSTRAP 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- ICONOS DE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- GOOLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,25 +67,64 @@
         </div>
     </section>
     <!-- Experiencia-->
-    <section calss="experiencia seccion-clara">
+    <section class="experiencia seccion-clara">
         <div class="container text-center">
             <div class="row">
                 <!-- Desarrollo Web -->
-                <div class="col-12 col-md-4">
-                    Desarrollo
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i><!-- Icono de laptop bootstrap-->
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil minima, ducimus voluptas rerum rem nesciunt sequi</p>
+                    <div class="badges-contenedor">                        
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">React</span>
+                    </div>
                 </div>
                 <!-- Articulos -->
-                <div class="col-12 col-md-4">
-                    Articulos
-                </div">
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-blockquote-left"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nihil consectetur laborum nesciunt optio d</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Blog</span>                        
+                    </div>
+                </div>
                 <!-- Estudiante -->
-                <div class="col-12 col-md-4">
-                    Estudiante
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-book-half"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, odit illum vel ut sed aliquid facilis unde iure</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">FreeCodeCamp</span>
+                        <span class="badge text-bg-primary">Java</span>
+                        <span class="badge text-bg-primary">Spring</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- PROYECTOS -->
+     <section class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que eh creado recientemente!!</h3>
+        <!-- GALERIA DE PROYECTOS -->
+         <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+         </div>
+     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
